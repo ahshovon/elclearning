@@ -1,0 +1,180 @@
+.section-cover{
+	width:100%;
+  	height:331px;
+	background: url(../images/vote/cover-img.png) no-repeat;
+	background-position:50% 50%;
+  	background-size: cover;
+}
+.cover-text{
+	position: relative;
+    top: 33%;
+    left: 5%;
+    width: 95%;
+}
+.cover-text .headone{
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.cover-text .headtwo{
+	font-size: 28.7px;
+  font-weight: 600;
+  margin-top: -8px;
+}
+
+.sectionmain{
+	width:100%;
+  height:auto;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.rhead h5{
+    text-align: center;
+}
+.rhead p{
+    margin-top: -10px;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.font22{
+font-size: 22px;
+}
+input[type="radio" i], input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    padding: initial;
+    border: initial;
+    width:30px;
+    height: 30px;
+}
+
+.form-check-label {
+    margin-left: 50px;
+}
+form h3{
+  margin-bottom: 30px;
+}
+main{
+  margin: 0 5%;
+}
+.trandcd{
+  background: #F9F9F9;
+  padding-top: 25px;
+  padding-bottom: 75px;
+  margin-left: -15px;
+  padding-left: 65px;
+  margin-right: -15px;
+  padding-right: 65px;
+}
+.sectionmain label {
+    font-size: 22px;
+}
+.section-footer{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background: url(../images/contact/contact-2.png) no-repeat;
+ /* background-position:50% 50%;*/
+  background-size: cover; 
+}
+.sfoverlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+.sftext{
+    padding-top: 20px;
+    color: white;
+}
+.sfmainhed{
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.sfseched{
+  font-weight: bold;
+  margin-top: 10px;
+}
+.subinput{
+    width: 50%;
+    height: 63px;
+    font-size: 35px;
+    margin-top: 25px;
+    text-align: center;
+}
+.subbutton{
+    margin-top: 30px;
+    padding: 3px 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.subbutton2{
+    position: relative;
+    top: 40px;
+    background: #3577C1;
+    height: 45px;
+    color: #fff;
+    font-size: 25px;
+    width: 350px;
+    margin-left: -90px;
+    border-radius: 23px;
+}
+.extrain{
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #ced4da;
+}
+
+.lblstyl {
+    text-align: right;
+}  
+.inputstyl {
+    border-radius: 25px;
+    padding-left: 20px;
+}
+.addmargin{
+  margin-left: -50px;
+}
+form hr{
+      margin-top: 30px;
+    margin-bottom: 30px;
+}
+.bignedmr{
+  margin-left: -40px;
+}
+.margin15{
+  margin-left: -15px;
+}
+@media screen and (max-width: 991px){
+  .subbutton2{
+    margin: 0 auto;
+    width: 250px;
+  }
+  .addmargin{
+    margin-left: 0px;
+  }
+  .form-check {
+    margin-top: 5px;
+  }
+  .form-group {
+    margin-bottom: 3rem;
+}
+.lblstyl {
+    text-align: left;
+}
+.bignedmr{
+  margin-left: 0px;
+}
+.margin15{
+  margin-left: 0px;
+}
+}
+@media screen and (min-width: 991px){
+  .exdiv{
+  display: none;
+}
+
+}

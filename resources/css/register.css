@@ -1,0 +1,175 @@
+.section-cover{
+	width:100%;
+  	height:331px;
+	background: url(../images/register/cover_img.png) no-repeat;
+	background-position:50% 50%;
+  	background-size: cover;
+}
+.cover-text{
+	position: relative;
+    top: 25%;
+    left: 5%;
+    width: 95%;
+}
+.cover-text h1{
+	font-size: 75px;
+    font-weight: 500;
+    color:white;
+}
+.cover-text span{
+	background: #efefef;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    width: 42%;
+    color: #b01f30;
+    font-size: 25px;
+    font-weight: 500;
+}
+.sectionmain{
+	width:100%;
+  height:auto;
+}
+.student-info{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background: #F9F9F9;
+    margin-left: -15px;
+    padding-left: 65px;
+    margin-right: -15px;
+    padding-right: 65px;
+}
+.parrent-info{
+  background: #EFEFEF;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: -15px;
+  padding-left: 65px;
+  margin-right: -15px;
+  padding-right: 65px;
+}
+.transport-info{
+  background: #F9F9F9;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: -15px;
+  padding-left: 65px;
+  margin-right: -15px;
+  padding-right: 65px;
+}
+
+.about-ins{
+  background: #EFEFEF;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: -15px;
+  padding-left: 65px;
+  margin-right: -15px;
+  padding-right: 65px;
+}
+input[type="radio" i], input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    margin: 1px 0.5ex;
+    padding: initial;
+    border: initial;
+    width:30px;
+    height: 30px;
+}
+.form-check-label {
+    margin-left: 50px;
+}
+form h3{
+  margin-bottom: 30px;
+}
+main{
+  margin: 0 5%;
+}
+.trandcd{
+  background: #F9F9F9;
+  padding-top: 25px;
+  padding-bottom: 75px;
+  margin-left: -15px;
+  padding-left: 65px;
+  margin-right: -15px;
+  padding-right: 65px;
+}
+.sectionmain label {
+    font-size: 20px;
+
+}
+.textright{
+  text-align: right;
+}
+.section-footer{
+  width: 100%;
+  text-align: center;
+  background: url(../images/contact/contact-2.png) no-repeat;
+ /* background-position:50% 50%;*/
+  background-size: cover; 
+}
+.sfoverlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+.sftext{
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 50px;
+}
+.sfmainhed{
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.sfseched{
+  font-weight: bold;
+  margin-top: 10px;
+}
+.subinput{
+    width: 50%;
+    height: 63px;
+    font-size: 35px;
+    margin-top: 25px;
+    text-align: center;
+}
+.subbutton{
+    margin-top: 30px;
+    padding: 3px 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.subbutton2{
+    position: relative;
+    top: 40px;
+    background: #3577C1;
+    height: 45px;
+    color: #fff;
+    font-size: 25px;
+    width: 350px;
+    margin-left: -90px;
+    border-radius: 23px;
+}
+.form-control-sm {
+    border-radius: 25px;
+    padding-left: 20px;
+}  
+.addmargin{
+  margin-left: -50px;
+}
+@media screen and (max-width: 990px){
+  .subbutton2{
+    margin-left: 0px;
+  }
+  .addmargin{
+    margin-left: 0px;
+  }
+  .form-check {
+    margin-top: 5px;
+  }
+  .textright{
+  text-align: left;
+}
+}

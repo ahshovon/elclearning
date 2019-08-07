@@ -1,0 +1,356 @@
+main{
+  margin: 0 5%;
+}
+html {
+  scroll-behavior: smooth;
+}
+  .menufix{
+    position: fixed;
+    top: 35%;
+    padding: 0 10px;
+    z-index: 99;
+    margin-left: 5%;
+  }
+
+.menufix .navul .nav-item .nav-link:hover {
+    color: #fff;
+    background-color: #82111E;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.menufix .navul .nav-item .nav-link {
+    padding-top: 1px;
+    text-align: center;
+    width: 30px;
+    background: black;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: 1px dashed #a4a19f;
+    color: #fff;
+}
+.navbar-dark .navul .nav-link.active {
+    color: #fff;
+    background-color: #82111E;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.section1{
+	width:100%;
+  padding-bottom: 50px;
+	background: url(../images/product/img-1.jpg) no-repeat;
+	background-position:100% 100%;
+  background-size: cover;
+ 
+}
+.section2{
+	width:100%;
+	background: url(../images/product/img-2.jpg) no-repeat;
+	background-position:50% 50%;
+  	background-size: cover;
+}
+.section3{
+	width:100%;
+	background: url(../images/product/img-3.jpg) no-repeat;
+	background-position:50% 50%;
+  	background-size: cover;
+}
+.section4{
+	width:100%;
+	background: url(../images/product/img-4.jpg) no-repeat;
+	background-position:50% 50%;
+  	background-size: cover;
+}
+.section5{
+	width:100%;
+	background: url(../images/product/img-5.jpg) no-repeat;
+	background-position:50% 50%;
+  	background-size: cover;
+}
+.textbig{
+	color: #ED1C24;
+	font-size: 110px;
+    font-weight: 600;
+    display: inline-block;
+    transform: scale(.6, 1);
+}
+.dotbig::after {
+	content: "▪";
+    color: black;
+    display: inline-block;
+    margin-left: -11px;
+}
+.dotbig{
+	color: black;
+    font-size: 40px;
+    top: 9px;
+    left:-8px;
+    position: relative;
+}
+.fstsec{
+  margin-top: 46px;
+    padding-left: 20px;
+    padding-right: 80px;
+    margin-bottom: 35px;
+}
+.sndsec{
+	font-size: 12px;
+  line-height: 14px;
+  width: 82%;
+  font-weight: bold;
+  text-align: justify;
+}
+.trdsec{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.firstright{
+    margin-top: 46px;
+    padding-left: 20px;
+    padding-right: 65px; 
+}
+.textthumb p{
+  font-size: 14px;
+}
+.proname{
+    background: #FFF3CE;
+    padding: 8px;
+}
+.prodese{
+    background: #ffffff;
+    padding: 8px;
+}
+.discounsec{
+      background: #ED1C24;
+    text-align: center;
+    padding:8px;
+}
+
+.imgthumb{
+  text-align: center;
+}
+.textthumb{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    background-image: linear-gradient(rgba(251, 251, 251, 0), #fdfdfd);
+}
+.twofirst{
+  margin-top: 75px;
+  color: white;
+  margin-left: 30px;
+}
+.twofirst p{
+  font-size: 14px;
+    line-height: 25px;
+}
+.twosecond{
+  margin-top: 35px;
+  /*color: white;*/
+  margin-left: 30px;
+}
+.feature-img{
+  position: relative;
+  float: left;
+  width: 20%;
+  height: auto;
+}
+.feature-details{
+  position: relative;
+  float: left;
+  width: 80%;
+  padding-left: 5px;
+  height: auto;
+}
+.fhead{
+    color: yellow;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.fdesc{
+  font-size: 13px;
+    color: #ffffff
+}
+.twothird{
+  margin-top: 35px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.pdletright{
+  padding-left: 0px;
+  padding-right:0px;
+}
+.pdleft{
+  padding-left: 0px;
+}
+.discounsec2{
+    background: #fffb13;
+    text-align: center;
+    padding:8px;
+}
+.trdfirst{
+  /*width: 40%;*/
+  margin-top: 50px;
+}
+.trdhead{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+    background: yellow;
+    border-radius: 20px 0px 0px 20px;
+    margin-top: 25px;
+}
+.trdsecond{
+  font-size: 25px;
+    font-weight: 500;
+    margin-top: 50px;
+    width: 80%;
+}
+.trdthird{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.letsec1{
+  margin-top: 50px;
+  height: 100px;
+}
+.letsec2{
+    margin-top: 40px;
+    height: 100px;
+}
+.letsec3{
+  margin-top: 40px;
+  height: 100px;
+}
+.letsec4{
+  margin-top: 50px;
+  height: 100px;
+  margin-bottom: 50px;
+}
+.imgblk{
+  width: 25%;
+  position: relative;
+  float: left;
+}
+.textblk{
+  width: 75%;
+  position: relative;
+  float: left;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.forfirst{
+  color: white;
+  text-align: center;
+  width: 86%;
+  margin: 50px auto;
+}
+.forfirst p{
+  margin-top: 30px;
+    font-size: 20px;
+}
+.forscehed{
+  color: #fffb13;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.forsecbg{
+    background: url(../images/product/4-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 20%;
+}
+.forthird{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.fivrigttext{
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+}
+.fivrigttext p{
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-size: 15px;
+  margin-top: 25px;
+}
+.fivlefttext{
+  margin-top: 50px;
+}
+.fivlefttext .row{
+  margin-bottom: 10px;
+}
+.fivlfitem{
+  background: yellow;
+    border-radius: 10px;
+    font-size: 13px;
+    text-align: center;
+    padding: 8px 0px;
+    font-weight: 600;
+}
+.fivsndsec{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.marrit{
+  margin-right: -10px;
+}
+.marlft{
+  margin-left: -10px;
+}
+.marbtm{
+  margin-bottom: 10px;
+}
+.marrigbot{
+  margin-left:-10px;
+  margin-bottom: 0px;
+}
+/*@media screen and (max-width: 1200px){
+  .section1{
+    background-size: cover;
+  }
+
+}*/
+@media screen and (max-width: 1072px){
+  .forsecbg{
+    background: transparent !important;
+  }
+}
+@media screen and (max-width:991px){
+  .marlft {
+    margin-right: 0px;
+    margin-left: -15px;
+  }
+}
+@media screen and (max-width: 767px){
+  .marlft {
+    margin-top: 10px;
+    margin-left: -15px;
+    margin-right: -10px;
+  }
+  .marrigbot
+  {
+    margin-left: -15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .mdamarrigbot{
+    margin-top: 20px;
+  }
+}
+/*hover efficts*/
+
+.hoveffectall:hover {
+    -webkit-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+}*/
